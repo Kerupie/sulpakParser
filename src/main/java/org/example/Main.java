@@ -14,7 +14,7 @@ import java.util.List;
 import java.util.Map;
 
 public class Main {
-    static List<Earphones> list = new ArrayList<>();
+    public static List<Smartphones> list = new ArrayList<>();
     public static void getLinks(String url) throws IOException {
         String[] linkList = new String[5000];
         String baseURL = "https://www.sulpak.kz";
@@ -35,14 +35,14 @@ public class Main {
             String name = document.getElementsByClass("product__item-name").text();
             String price = document.getElementsByClass("product__item-price").text().replaceAll("\\D+", "");
             int priceInt = price.equals("") ? -1 : Integer.parseInt(price);
-            Earphones currentEarphone = new Earphones();
+            Smartphones smartphone = new Smartphones();
             for (int i = 0; i < strTitle.size(); i++){
                 map.put(strTitle.get(i).text(), strValue.get(i).text());
-                currentEarphone.setName(name);
-                currentEarphone.setPrice(priceInt);
+                smartphone.setName(name);
+                smartphone.setPrice(priceInt);
             }
-            currentEarphone.setCharacteristics(map);
-            list.add(currentEarphone);
+            smartphone.setCharacteristics(map);
+            list.add(smartphone);
         }
     public static void main(String[] args) throws IOException {
         Gson gson = new GsonBuilder()
@@ -54,8 +54,6 @@ public class Main {
             System.out.println(url+"?page="+i);
             System.out.println("Page "+i+" was parsed");
         }
-        gson.toJson(list, new FileWriter("C:\\Users\\krump\\Desktop\\info.json"));
-
-    }
-
+        gson.toJson(list, new FileWriter("C:\\Users\\krump\\Desktop\\info1.json"));
+        }
 }

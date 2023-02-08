@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e2dd5c2-1a59-46d9-9549-9d818e2690c8" name="Changes" comment="Sulpak smartfones parser" />
+    <list default="true" id="1e2dd5c2-1a59-46d9-9549-9d818e2690c8" name="Changes" comment="Sulpak smartfones parser">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Analysis.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Earphones.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Smartphones.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,8 +47,21 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;File.Encoding&quot;
   }
 }</component>
-  <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.org.example.Analysis">
+    <configuration name="org.example.Analysis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Analysis" />
+      <module name="ParserEnd" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="org.example.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
       <module name="ParserEnd" />
       <extension name="coverage">
@@ -57,7 +76,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.org.example.Analysis" />
+        <item itemvalue="Application.org.example.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -70,7 +90,12 @@
       <option name="presentableId" value="Default" />
       <updated>1675590815472</updated>
       <workItem from="1675590817385" duration="15140000" />
-      <workItem from="1675688519711" duration="8724000" />
+      <workItem from="1675688519711" duration="8782000" />
+      <workItem from="1675782421259" duration="66000" />
+      <workItem from="1675783440316" duration="3080000" />
+      <workItem from="1675786775474" duration="73000" />
+      <workItem from="1675786958549" duration="878000" />
+      <workItem from="1675835726220" duration="4517000" />
     </task>
     <task id="LOCAL-00001" summary="Sulpak smartfones parser">
       <created>1675700757070</created>
@@ -86,7 +111,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675700784543</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Sulpak smartfones parser">
+      <created>1675700927446</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1675700927446</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

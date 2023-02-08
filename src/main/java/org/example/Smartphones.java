@@ -2,12 +2,11 @@ package org.example;
 
 import java.util.Map;
 
-public class Earphones {
+public class Smartphones {
     private String name;
     private int  price;
     private boolean isAvailable = true;
     private Map<String, String> characteristics;
-
     public Map<String, String> getCharacteristics() {
         return characteristics;
     }
@@ -39,5 +38,15 @@ public class Earphones {
 
     public void setAvailable(boolean available) {
         isAvailable = available;
+    }
+
+    @Override
+    public String toString() {
+        return "Earphones{" +
+                "name='" + name + '\'' +
+                ", price=" + price +
+                ", isAvailable=" + isAvailable +
+                ", characteristics=" + characteristics +
+                '}';
     }
 }
